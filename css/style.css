@@ -133,3 +133,34 @@ footer{
 	padding: 10px;
 	padding-top: 20px;
 }
+
+@media screen and (max-width: 600px){
+	body{
+		font-size: 1em;
+		line-height: 1.7em;
+	}
+	#wrap{
+		width: 500px;
+		margin: 0;
+		padding: 0;
+	}
+	#h2{
+		width: 500px;
+  	margin: 0 auto;
+	}
+	#game{
+		width: 400px;
+	}
+	#startScene{
+		width: 400px;
+		height: 400px;
+	}
+	#numbers div{
+		width: 99px;
+		height: 57px;
+	}
+	footer{
+		width: 500px;
+		margin: 0 auto;
+	}
+}
